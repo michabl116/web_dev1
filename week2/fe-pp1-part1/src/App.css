@@ -1,0 +1,36 @@
+/* Contenedor principal del componente */
+div {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px auto;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Imagen de perfil */
+img {
+  border-radius: 50%;
+  margin-bottom: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Información del texto */
+p {
+  margin: 8px 0;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Nombre destacado */
+p:first-of-type {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+}
